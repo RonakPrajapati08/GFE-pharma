@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+  <!-- MDB -->
+  <!-- <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/contacts/contact-5/assets/css/contact-5.css">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+
+  <!----------- Slick slider----------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+  <!-------------- Aos animation------------------>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title>Chemical</title>
+</head>
+
+<body class="overflow-x-hidden">
+
+
+    <!-- Navbar -->
+  	<nav class="navbar navbar-expand-lg navbar-dark d-none d-xl-block d-xxl-block d-lg-block navv-color">
+  		<!-- Container wrapper -->
+  		<div class="container-fluid">
+
+  			<!-- Collapsible wrapper -->
+  			<div class="collapse navbar-collapse justify-content-between px-1" >
+  				<!-- Left links -->
+  				<ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+  					<li class="nav-item ">
+  						<a class="nav-link" href="#"><i class="fa-regular fa-envelope fs-5 "></i> info@gfebusiness.org</a>
+  					</li>
+  					<li class="nav-item">
+  						<a class="nav-link" href="#"><i class="fa-solid fa-phone me-1"></i>+919956451234</a>
+  					</li>
+  				</ul>
+  				<!-- Left links -->
+
+  				<ul class="navbar-nav d-flex flex-row gap-3">
+  					<!-- Icons -->
+  					<li class="list-inline-item"> <a href="https://twitter.com/gfebusiness" target="_blank"
+  							rel="noopener"><i
+  								class="fa-brands fa-twitter fs-5  twi-color  rounded-circle"></i></a>
+  					</li>
+  					<li class="list-inline-item"> <a href="https://www.instagram.com/gfe.business/" target="_blank"
+  							rel="noopener"><i
+  								class="fa-brands fa-instagram fs-5  insta-color  rounded-circle"></i></a>
+  					</li>
+  					<li class="list-inline-item"> <a href="https://www.facebook.com/GFEbusiness" target="_blank"
+  							rel="noopener"><i
+  								class="fa-brands fa-facebook-f fs-5  face-color  rounded-circle"></i></a>
+  					</li>
+  					<li class="list-inline-item"> <a href="https://www.youtube.com/@gfebusiness" target="_blank"
+  							rel="noopener"><i
+  								class="fa-brands fa-youtube fs-5  Youtube-color  rounded-circle"></i></a>
+  					</li>
+  					<li class="list-inline-item"> <a href="https://www.linkedin.com/company/13249941/admin/feed/posts/"
+  							target="_blank" rel="noopener"><i
+  								class="fa-brands fa-linkedin fs-5  linkdin-color  rounded-circle"></i></a>
+  					</li>
+  					<!-- Icon dropdown -->
+  				</ul>
+  			</div>
+  			<!-- Collapsible wrapper -->
+  		</div>
+  		<!-- Container wrapper -->
+  	</nav>
+  	<!-- TOP Company Navbar -->
+
+    <!-- -----START Link NavBar----- -->
+
+    <nav class="navbar navbar-expand-lg  bg-light px-3 py-0">
+      <a class="navbar-brand m-0" href="#"><img src="./images/LOGO.png" alt="" srcset="./images/LOGO.png" class="w-50"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto gap-3">
+          <li class="nav-item active">
+            <a class="nav-link text-dark font" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font" href="./about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark font" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu text-dark font" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./Products.html">All Products</a></li>
+              <li>
+                <a class="dropdown-item" role="button" data-bs-toggle="dropdown">Categories &raquo; </a>
+                <ul class="dropdown-menu dropdown-submenu" >
+                  <li>
+                    <a class="dropdown-item" href="./Pharmaceuticals.html">Pharmaceuticals</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./Diagnostic.html">Diagnostic</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./Medical Consumables & Surgicals.html">Medical Consumables & Surgicals</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <!-- Categories -->
+          <!-- <a class="dropdown-item" href="./Pharmaceuticals.html">Pharmaceuticals</a>
+              <a class="dropdown-item" href="./Diagnostic.html">Diagnostic</a>
+              <a class="dropdown-item" href="./Medical Consumables & Surgicals.html">Medical Consumables & Surgicals</a> -->
+
+          <!-- <li class="nav-item">
+            <a class="nav-link text-dark font" href="#">Services</a>
+          </li> -->
+
+          <li class="nav-item">
+            <a class="nav-link text-dark font" href="./contact.html">Contacts</a>
+          </li>
+        </ul>
+      
+          <button class="btn btn-outline-success my-2 my-sm-0 ms-auto " type="submit" id="myBtn"
+          data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry</button>
+      </div>
+    </nav>
+   <!-- -----END Link NavBar----- -->
+
+<!-- ----------------START Enquairy form----------------- -->
+   
+  <div class="modal fade overflow-y-hidden" id="exampleModal" tabindex="-1" role="dialog"
+   aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+       <div class="modal-content enquiry-color">
+           <div class="modal-header">
+               <h5 class="modal-title text-black fs-2 font-bold honey" id="exampleModalLabel">Enquiry Form</h5>
+               <button type="button" class="close border-dark-subtle border-1 px-1" data-bs-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+               </button>
+           </div>
+           <div class="modal-body">
+               <form action="#!">
+                   <div class="row gy-4 gy-xl-5 p-2">
+                       <div class="col-12">
+                           <label for="fullname" class="form-label text-black font-wieght">Full Name <span
+                                   class="text-danger">*</span></label>
+                           <input type="text" class="form-control" id="fullname" name="fullname" value="" placeholder="name" required>
+                       </div>
+                       <div class="col-12 col-md-6 mt-4">
+                           <label for="email" class="form-label text-black font-wieght">Email <span class="text-danger">*</span></label>
+                           <div class="input-group">
+                               <span class="input-group-text text-black font-wieght">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                       fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                       <path
+                                           d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                   </svg>
+                               </span>
+                               <input type="email" class="form-control" id="email" name="email" value=""  placeholder="email" required>
+                           </div>
+                       </div>
+                       <div class="col-12 col-md-6 mt-4">
+                           <label for="phone" class="form-label text-black font-wieght">Phone Number<span
+                           class="text-danger">*</span></label>
+                           <div class="input-group">
+                               <span class="input-group-text text-black font-wieght">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                       fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                       <path
+                                           d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                   </svg>
+                               </span>
+                               <input type="tel" class="form-control" id="phone" name="phone" value="" placeholder="number" required>
+                           </div>
+                       </div>
+                       <div class="col-12 mt-4">
+                           <label for="subject" class="form-label text-black font-wieght">Subject <span
+                                   class="text-danger">*</span></label>
+                           <input type="text" class="form-control" id="subject" name="subject" value=""  placeholder="subject" required>
+                       </div>
+                       <div class="col-12 mt-4">
+                           <label for="message" class="form-label text-black font-wieght">Message <span
+                                   class="text-danger">*</span></label>
+                           <textarea class="form-control" id="message" name="message" rows="3"  placeholder="message" required></textarea>
+                       </div>
+                       <div class="col-12 mt-4">
+                           <div class="d-grid">
+                               <button
+                                   class="btn bg-success btn-success focus:outline-none hover:bg-indigo-600 btn-lg"
+                                   data-mdb-ripple-init type="button" type="submit">Send Message</button>
+                           </div>
+                       </div>
+                   </div>
+               </form>
+           </div>
+
+       </div>
+   </div>
+</div>
+
+<!-- ----------------END Enquairy form----------------- -->
+
+
+<!-- -------section-1---------- -->
+<style>
+  .sec-1{
+    background-color: #b8d9e7;
+  }
+</style>
+
+   <section class="sec-1">
+    <div class="container-fluid">
+      <!-- <div class=""> -->
+        <div class="px-3">
+          <div class="row g-0 align-items-center justify-content-center">
+            <div class="col-md-6 order-lg-2 ">
+              <div class="d-flex p-3 Ronak" data-aos="fade-down" data-aos-duration="1500">
+                <img class="img-fluid  me-lg-8 rounded sec1-asp" src="./images/home-3.png"
+                  srcset="./assets/img/photos/co3@2x.png 2x" alt="">
+                <img class="img-fluid  me-lg-8 rounded sec1-asp" src="./images/home-2.png"
+                  srcset="./assets/img/photos/co3@2x.png 2x" alt="">
+                <img class="img-fluid  me-lg-8 rounded sec1-asp" src="./images/home-4.png"
+                  srcset="./assets/img/photos/co3@2x.png 2x" alt="">
+                  <img class="img-fluid  me-lg-8 rounded sec1-asp" src="./images/2.jpg"
+                  srcset="./assets/img/photos/co3@2x.png 2x" alt="">
+                  <img class="img-fluid  me-lg-8 rounded sec1-asp" src="./images/1.jpg"
+                  srcset="./assets/img/photos/co3@2x.png 2x" alt="">
+                  <img class="img-fluid  me-lg-8 rounded sec1-asp" src="./images/3.jpeg"
+                  srcset="./assets/img/photos/co3@2x.png 2x" alt="">
+                <!-- <img class="img-fluid ms-auto mx-auto me-lg-8 rounded " src="./assets/img/images/sec1.png"
+                  srcset="./assets/img/photos/co3@2x.png 2x" alt="">
+                <img class="img-fluid ms-auto mx-auto me-lg-8 rounded " src="./assets/img/images/sec1.png"
+                  srcset="./assets/img/photos/co3@2x.png 2x" alt="">
+                <img class="img-fluid ms-auto mx-auto me-lg-8 rounded " src="./assets/img/images/sec1.png"
+                  srcset="./assets/img/photos/co3@2x.png 2x" alt="">
+                <img class="img-fluid ms-auto mx-auto me-lg-8 rounded " src="./assets/img/images/sec1.png"
+                  srcset="./assets/img/photos/co3@2x.png 2x" alt=""> -->
+                <!-- </div> -->
+              </div>
+            </div>
+            <!--/column -->
+            <div class="col-md-6 text-center text-lg-start paddi-sm">
+              <h1 class="text-justify text-black mb-2" style="font-size: 50px;" data-aos="fade-down" data-aos-duration="1500">Peak Healthcare is India's leading supplier</h1>
+              <h3 class="typing_txt text-black" style="font-weight: 600;">
+                for <span data-text=" Pharmaceuticals, Diagnostic, Medical Consumables & Surgicals"></span>
+              </h3>
+              <p class="fs-5 text-black my-4" data-aos="fade-right" data-aos-duration="1500">We are a Government of India (Ministry of Commerce & Industry) recognized export organisation having expertise in Pharmaceutical & Allied products.
+                </p>
+
+              <div class="d-flex justify-content-center justify-content-lg-start" data-aos="fade-up"data-aos-duration="1500" >
+                <!-- <span><a href="#" class="btn btn-lg btn-primary rounded-pill me-2">Explore Now</a></span> -->
+                <a href="#"><button type="button" class="btn btn-lg btn-outline-primary  my-2">Know More </button></a>
+              </div>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+        </div>
+        <!--/.card-body -->
+      </div>
+    </div>
+  </section>
+
+<!-- -------START Section-2 Counter-------- -->
+<style>
+  .record-i{
+    color: #0098DA;
+  }
+  .sec-2{
+    background-color: #f0f5ff;
+  }
+</style>
+
+  <section class=" body-font sec-2">
+    <div class="container-fluid p-4">
+      <div class="text-center">
+        <h1 class="record-i font-wieght" data-aos="fade-down" data-aos-duration="1200">Records </h1>
+        <div class="ezy__about13_8kg9xEz7-divider mx-auto"></div>
+      </div>
+      <div class="row py-3 flex-row flex-wrap text-center justify-content-around">
+        <div class="p-2 col-md-3 text-center text-black" data-aos="fade-down" data-aos-duration="800">
+          <p class="record-i"><i class="fa-solid fa-umbrella fs-1"></i></p>
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900 purecounter" data-purecounter-start="0" data-purecounter-end="105"   data-purecounter-delay="50"></h2>
+          <p class="leading-relaxed">Partners</p>
+        </div>
+        <div class="p-2 col-md-3 text-black" data-aos="fade-down" data-aos-duration="1000">
+          <p class="record-i"><i class="fa-solid fa-users fs-1"></i></p>
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900 purecounter" data-purecounter-start="0" data-purecounter-end="25"   data-purecounter-delay="50"></h2>
+          <p class="leading-relaxed">Company of the year</p>
+        </div>
+        <div class="p-2 col-md-3 text-black" data-aos="fade-down" data-aos-duration="1300">
+          <p class="record-i"><i class="fa-solid fa-chart-column fs-1"></i></p>
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900 purecounter" data-purecounter-start="0" data-purecounter-end="50"   data-purecounter-delay="50"></h2>
+          <p class="leading-relaxed">Products</p>
+        </div>
+        <div class="p-2 col-md-3 text-black" data-aos="fade-down" data-aos-duration="1600">
+          <p class="record-i"><i class="fa-solid fa-earth-asia fs-1"></i></p>
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900 purecounter" data-purecounter-start="0" data-purecounter-end="18"   data-purecounter-delay="50"></h2>
+          <p class="leading-relaxed">Locations</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- -------END Section-2 Counter-------- -->
+
+<!-- -------START Section-3 About-------- -->
+
+<style>
+ .sec-3{
+  background-color: #edfdfbd8;
+ }
+</style>
+
+<section class="ezy__about13_8kg9xEz7 sec-3" id="ezy__about13_8kg9xEz7" >
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-lg-5 mb-5 mb-lg-0">
+        <div class="">
+          <h1 class="ezy__about13_8kg9xEz7-heading record-i" data-aos="fade-down" data-aos-duration="1500">Our Company</h1>
+          <div class="ezy__about13_8kg9xEz7-divider my-4" ></div>
+          <p class="ezy__about13_8kg9xEz7-sub-heading text-black mb-2" data-aos="fade-right" data-aos-duration="1200">
+            Since its founding 1983, Nabros Pharma is a leading privately held, vertically integrated global pharmaceutical research and 
+            development, formulated, manufacturing and marketing company and its having corporate office in Ahmedabad; 
+            Gujarat, India. Nabros Pharma 's Global presence is Supported by our  Manufacturing facility.
+          </p>
+          <p class="ezy__about13_8kg9xEz7-sub-heading text-black mb-0" data-aos="fade-left" data-aos-duration="1200">
+            Nabros Pharma is manufacturing and delivering  branded, generic formulations and active pharmaceutical ingredients (API's) 
+            of (Essential Phospholipids) to customers. Nabros' global strives to achieve global market leadership footprint with 
+            Business alliances. Nabros has made strategic investments in manufacturing facilities. Our facilities conform to the most stringent
+            international cGMP norms and have received approvals from various prominent international regulatory bodies.
+          </p>
+        </div>
+        <div class="mt-4" data-aos="fade-up" data-aos-duration="1200">
+          <a href="./about.html"><button type="button" class="btn btn-outline-white text-bg-primary px-3 py-2">Read More</button></a>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="ezy__about13_8kg9xEz7-bg-holder"></div>
+        <div class="position-relative" style="margin: 40px 0;" data-aos="flip-left" data-aos-duration="2000">
+          <img src="./images/3.jpeg" alt="" class="img-fluid " />
+          <img
+            src="./images/5.jpg"
+            alt=""
+            class="img-fluid ezy__about13_8kg9xEz7-img2 "
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- -------END Section-3 About-------- -->
+
+
+<!-- START Our Products BRANDS  -->
+<style>
+  .sec-4{
+    background-color: #b8d9e7;
+  }
+</style>
+
+<section class="ezy__clients7_jMD4PA3T px-3 sec-4">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="text-center title-border">
+        <p class=" mb-0 font-wieght record-i" data-aos="fade-down" data-aos-duration="1500">OUR PRODUCTS</p>
+        <h1 class=" font-wieght record-i" style="letter-spacing: 2px;" data-aos="fade-down" data-aos-duration="1000">Our Brand</h1>
+      </div>
+    </div>
+    <div class="d-flex flex-wrap Himanshu align-items-center text-center gap-2 justify-content-center" data-aos="flip-left" data-aos-duration="1500">
+      <div class="ezy__clients7_jMD4PA3T-item ">
+        <img src="./images/brand/1.jpg" alt=""
+          class="ezy__clients7_jMD4PA3T-img img-fluid" />
+      </div>
+      <div class="ezy__clients7_jMD4PA3T-item    ">
+        <img src="./images/brand/2.jpg" alt=""
+          class="ezy__clients7_jMD4PA3T-img img-fluid " />
+      </div>
+      <div class="ezy__clients7_jMD4PA3T-item   ">
+        <img src="./images/brand/3.jpg" alt=""
+          class="ezy__clients7_jMD4PA3T-img img-fluid " />
+      </div>
+      <div class="ezy__clients7_jMD4PA3T-item  ">
+        <img src="./images/brand/4.jpg" alt=""
+          class="ezy__clients7_jMD4PA3T-img img-fluid " />
+      </div>
+      <div class="ezy__clients7_jMD4PA3T-item   ">
+        <img src="./images/brand/5.jpg" alt=""
+          class="ezy__clients7_jMD4PA3T-img img-fluid " />
+      </div>
+      <div class="ezy__clients7_jMD4PA3T-item   ">
+        <img src="./images/brand/6.jpg" alt=""
+          class="ezy__clients7_jMD4PA3T-img img-fluid " />
+      </div>
+      <div class="ezy__clients7_jMD4PA3T-item    ">
+        <img src="./images/brand/7.jpg" alt=""
+          class="ezy__clients7_jMD4PA3T-img img-fluid " />
+      </div>
+      <div class="ezy__clients7_jMD4PA3T-item    ">
+        <img src="./images/brand/8.jpg" alt=""
+          class="ezy__clients7_jMD4PA3T-img img-fluid " />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- END Our Products BRANDS  -->
+
+
+<!-- START Our Products  -->
+<section class="ezy__portfolio1_GjikrCTQ">
+  <div class="container">
+    <div class="text-center title-border">
+      <p class="mb-0 font-wieght fs-6 record-i" data-aos="fade-down" data-aos-duration="1500">GET UP TO DATE</p>
+      <h1 class="font-wieght record-i" data-aos="fade-down" data-aos-duration="1000">Our Products</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="ezy__portfolio1_GjikrCTQ-item  position-relative mt-4" data-aos="fade-down" data-aos-duration="1000">
+          <img
+            src="images/1.jpg"
+            alt=""
+            class="img-fluid w-100"
+          />
+          <div class="ezy__portfolio1_GjikrCTQ-content text-center p-2">
+            <!-- <h5>Photography</h5> -->
+            <a href="#"><p class="mb-0 text-black font-wieght fs-5">Tablet</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="ezy__portfolio1_GjikrCTQ-item  position-relative mt-4" data-aos="fade-down" data-aos-duration="1400">
+          <img
+            src="images/product2.jpg"
+            alt=""
+            class="img-fluid w-100"
+          />
+          <div class="ezy__portfolio1_GjikrCTQ-content text-center p-2">
+            <!-- <h5>Web Portal Dev</h5> -->
+            <a href="#"><p class="mb-0 text-black font-wieght fs-5">Capsules</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="ezy__portfolio1_GjikrCTQ-item  position-relative mt-4" data-aos="fade-down" data-aos-duration="1800">
+          <img
+            src="images/product5.jpg"
+            alt=""
+            class="img-fluid w-100"
+          />
+          <div class="ezy__portfolio1_GjikrCTQ-content text-center p-2">
+            <!-- <h5>Marketing</h5> -->
+            <a href="#"><p class="mb-0 text-black font-wieght fs-5">Topical Medicines</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="ezy__portfolio1_GjikrCTQ-item  position-relative mt-4" data-aos="fade-up" data-aos-duration="1000">
+          <img
+            src="images/2.jpg"
+            alt=""
+            class="img-fluid w-100"
+          />
+          <div class="ezy__portfolio1_GjikrCTQ-content text-center p-2">
+            <!-- <h5>Web Portal Dev</h5> -->
+            <a href="#"><p class="mb-0 text-black font-wieght fs-5">Injections</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="ezy__portfolio1_GjikrCTQ-item  position-relative mt-4" data-aos="fade-up" data-aos-duration="1400">
+          <img
+            src="images/product5.jpg"
+            alt=""
+            class="img-fluid w-100"
+          />
+          <div class="ezy__portfolio1_GjikrCTQ-content text-center p-2">
+            <!-- <h5>VS Code Editor</h5> -->
+            <a href="#"><p class="mb-0 text-black font-wieght fs-5">Drops</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="ezy__portfolio1_GjikrCTQ-item  position-relative mt-4" data-aos="fade-up" data-aos-duration="1800">
+          <img
+            src="images/product6.jpg"
+            alt=""
+            class="img-fluid w-100"
+          />
+          <div class="ezy__portfolio1_GjikrCTQ-content text-center p-2">
+            <!-- <h5>Management</h5> -->
+            <a href="#"><p class="mb-0 text-black font-wieght fs-5"> Injections </p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- END Our Products  -->
+
+
+<!-- START Our Certificate  -->
+
+<section class="ezy__team14_xxvMpImY">
+  <div class="container">
+
+    <div class="text-center title-border">
+      <p class="mb-0 font-wieght fs-6 record-i" data-aos="fade-down" data-aos-duration="1500">WE LOVE CLIENTS</p>
+      <h1 class="font-wieght record-i" data-aos="fade-down" data-aos-duration="1000">Our Certificate</h1>
+    </div>
+
+    <div class="ezy__team14_xxvMpImY-inner-wrapper">
+      <div class="row">
+        
+        <!-- <div class="ezy__team14_xxvMpImY-header mb-4 text-left col-12">
+          <h2 class="ezy__team14_xxvMpImY-headline position-relative">Speakers</h2>
+        </div>
+
+        <div class="ezy__team14_xxvMpImY-heading-line">
+          <div class="ezy__team14_xxvMpImY-heading-line-inner">
+            <hr class="ezy__team14_xxvMpImY-long-line d-inline-block m-0" />
+            <div class="ezy__team14_xxvMpImY-start">CONFERENCE SPONSORS</div>
+          </div>
+        </div> -->
+
+        <div class="col-12">
+          <div class="row Sunaina" data-aos="zoom-in-up" data-aos-duration="1500">
+            <div class="col-sm-6 col-lg-3">
+              <div class="text-center">
+                <img
+                  src="./images/certi/logo1.jpg"
+                  alt="Our Team Member Image"
+                  class="p-2 w-100"
+                />
+                <!-- <div class="ezy__team14_xxvMpImY-content">
+                  <p class="ezy__team14_xxvMpImY-heading m-0 mx-auto">Johny Ferguson</p>
+                  <p class="ezy__team14_xxvMpImY-sub-heading mx-auto">Designer, Fixe</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="text-center">
+                <img
+                  src="./images/certi/logo2.jpg"
+                  alt="Our Team Member Image"
+                  class="p-2 w-100"
+                />
+                <!-- <div class="ezy__team14_xxvMpImY-content">
+                  <p class="ezy__team14_xxvMpImY-heading m-0 mx-auto">Julie Foster</p>
+                  <p class="ezy__team14_xxvMpImY-sub-heading mx-auto">Developer, Uber</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="text-center">
+                <img
+                  src="./images/certi/logo3.jpg"
+                  alt="Our Team Member Image"
+                  class="p-2 w-100"
+                />
+                <!-- <div class="ezy__team14_xxvMpImY-content">
+                  <p class="ezy__team14_xxvMpImY-heading m-0 mx-auto">Michael Jimenez</p>
+                  <p class="ezy__team14_xxvMpImY-sub-heading mx-auto">Writer, USA</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="features-inner text-center">
+                <img
+                  src="./images/certi/logo4.jpg"
+                  alt="Our Team Member Image"
+                  class="p-2 w-100"
+                />
+                <!-- <div class="ezy__team14_xxvMpImY-content">
+                  <p class="ezy__team14_xxvMpImY-heading m-0 mx-auto">Kelly Thompson</p>
+                  <p class="ezy__team14_xxvMpImY-sub-heading mx-auto">Manger, FTIA</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="text-center">
+                <img
+                  src="./images/certi/logo5.jpg"
+                  alt="Our Team Member Image"
+                  class="p-2 w-100"
+                />
+                <!-- <div class="ezy__team14_xxvMpImY-content">
+                  <p class="ezy__team14_xxvMpImY-heading m-0 mx-auto">Brittany Contreras</p>
+                  <p class="ezy__team14_xxvMpImY-sub-heading mx-auto">HR, APPLE</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="text-center">
+                <img
+                  src="./images/certi/logo6.jpg"
+                  alt="Our Team Member Image"
+                  class="p-2 w-100"
+                />
+                <!-- <div class="ezy__team14_xxvMpImY-content">
+                  <p class="ezy__team14_xxvMpImY-heading m-0 mx-auto">Matthew Johnson</p>
+                  <p class="ezy__team14_xxvMpImY-sub-heading mx-auto">Agent, MINT</p>
+                </div> -->
+              </div>
+            </div>
+            <!-- <div class="col-sm-6 col-lg-3">
+              <div class="text-center">
+                <img
+                  src="./images/certi/logo7.jpg"
+                  alt="Our Team Member Image"
+                  class="p-2 w-100"/>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="text-center">
+                <img
+                  src="https://cdn.easyfrontend.com/pictures/users/user21.jpg"
+                  alt="Our Team Member Image"
+                  class="p-2 w-100"/>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- END Our Certificate  -->
+
+
+<!-- START Get in Touch -->
+
+<section class="ezy__cta6_4fIdFkhP">
+  <div class="container">
+    <!-- <div class=""> -->
+      <div class="row align-items-center justify-content-between ezy__cta6_4fIdFkhP-form-card p-2">
+        <div class="col-lg-6">
+          <div class=" px-sm-2">
+            <h2 class="ezy__cta6_4fIdFkhP-heading mb-4" data-aos="fade-down" data-aos-duration="1200">Join with us for more information</h2>
+
+            <div class="row">
+              <div class="col-sm-8">
+                <p class="ezy__cta6_4fIdFkhP-sub-heading text-white mb-5 font-wieght" data-aos="fade-down" data-aos-duration="1500">
+                  It’s easier to reach your savings goals when you have the right savings account.
+                </p>
+              </div>
+              <div class="col-xl-10">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 text-end p-1 d-">
+          <div class="d-flex gap-5 justify-content-around">
+            <a class="btn btn-secondary px-4 py-3" href="./contact.html" data-aos="flip-right" data-aos-duration="1500">Get in touch</a>
+            <a class="btn btn-primary  text-white px-4 py-3 record-i" href="#" target="_blank" data-aos="flip-left" data-aos-duration="1500">Download Product Catalogue</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- END Get in Touch -->
+
+<!-- START Testinonials -->
+<style>
+  /* shapes */
+.ezy__testimonial23_w9Yc4QkB-shape-one {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.ezy__testimonial23_w9Yc4QkB-shape-two {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+</style>
+
+<section class="ezy__testimonial5_c11rfTn7">
+    <!-- shape one -->
+      <svg
+      class="ezy__testimonial23_w9Yc4QkB-shape-one"
+      width="404"
+      height="572"
+      viewBox="0 0 404 572"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <circle cx="118" cy="286" r="265.5" stroke="#4175DF" stroke-opacity="0.2" stroke-width="41" />
+      </svg>
+    <!-- shape two -->
+      <svg
+        class="ezy__testimonial23_w9Yc4QkB-shape-two"
+        width="269"
+        height="479"
+        viewBox="0 0 269 479"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle cx="239.5" cy="239.5" r="239.5" fill="#FC4755" fill-opacity="0.25" />
+      </svg>
+      
+<div class="container ">
+
+  <div class="text-center title-border">
+    <p class="mb-0 font-wieght fs-6 record-i" data-aos="fade-down" data-aos-duration="1500">OUR CLIENTS REVIEW</p>
+    <h1 class="font-wieght record-i" data-aos="fade-down" data-aos-duration="1000">Testimonials</h1>
+  </div>  
+
+    <div class="row text-center justify-content-around align-items-center Sakshi">
+
+      <div class="col-md-3 col-lg-3">
+        <div class="ezy__testimonial5_c11rfTn7-item p-4 py-lg-5 mt-4" data-aos="fade-right" data-aos-duration="1500">
+          <img src="https://cdn.easyfrontend.com/pictures/users/user17.jpg" alt=""
+            class="img-fluid rounded-circle mx-auto" width="120" />
+          <div class="ezy__testimonial5_c11rfTn7-content mt-3">
+            <h4 class="mb-1">Akshay Kumar</h4>
+            <p class="mb-4 ezy__testimonial5_c11rfTn7-rating">
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star-half-alt active"></span>
+              <span class="fas fa-star"></span>
+            </p>
+            <p class=" mb-0">
+              Two multiply fly them, made under a make replenish behold stars, is he of beast place also under unto it.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-lg-3">
+        <div class="ezy__testimonial5_c11rfTn7-item active p-4 py-lg-5 mt-4" data-aos="flip-left" data-aos-duration="1500">
+          <img src="https://cdn.easyfrontend.com/pictures/users/user8.jpg" alt=""
+            class="img-fluid rounded-circle mx-auto" width="120" />
+          <div class="ezy__testimonial5_c11rfTn7-content mt-3">
+            <h4 class="mb-1">Raima Ray</h4>
+            <p class="mb-4 ezy__testimonial5_c11rfTn7-rating">
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star-half-alt active"></span>
+              <span class="fas fa-star"></span>
+            </p>
+            <p class=" mb-0">
+              Shall deep bearing divide seed moved replenish us, good our open he seed day which firmament creeping wherein fourth fly.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-lg-3">
+        <div class="ezy__testimonial5_c11rfTn7-item p-4 py-lg-5 mt-4" data-aos="fade-right" data-aos-duration="1500">
+          <img src="https://cdn.easyfrontend.com/pictures/users/user17.jpg" alt=""
+            class="img-fluid rounded-circle mx-auto" width="120" />
+          <div class="ezy__testimonial5_c11rfTn7-content mt-3">
+            <h4 class="mb-1">Akshay Kumar</h4>
+            <p class="mb-4 ezy__testimonial5_c11rfTn7-rating">
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star-half-alt active"></span>
+              <span class="fas fa-star"></span>
+            </p>
+            <p class=" mb-0">
+              Two multiply fly them, made under a make replenish behold stars, is he of beast place also under unto it.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-lg-3">
+        <div class="ezy__testimonial5_c11rfTn7-item p-4 py-lg-5 mt-4" data-aos="fade-left" data-aos-duration="1500">
+          <img src="https://cdn.easyfrontend.com/pictures/users/user18.jpg" alt=""
+            class="img-fluid rounded-circle mx-auto" width="120" />
+          <div class="ezy__testimonial5_c11rfTn7-content mt-3">
+            <h4 class="mb-1">Arjun Kapur</h4>
+            <p class="mb-4 ezy__testimonial5_c11rfTn7-rating">
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star-half-alt active"></span>
+              <span class="fas fa-star"></span>
+            </p>
+            <p class=" mb-0">
+              It’s easier to reach your savings goals when you have the right savings account. Take a look and find
+              the right one for you.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-lg-3">
+        <div class="ezy__testimonial5_c11rfTn7-item p-4 py-lg-5 mt-4" data-aos="fade-right" data-aos-duration="1500">
+          <img src="https://cdn.easyfrontend.com/pictures/users/user17.jpg" alt=""
+            class="img-fluid rounded-circle mx-auto" width="120" />
+          <div class="ezy__testimonial5_c11rfTn7-content mt-3">
+            <h4 class="mb-1">Akshay Kumar</h4>
+            <p class="mb-4 ezy__testimonial5_c11rfTn7-rating">
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star active"></span>
+              <span class="fas fa-star-half-alt active"></span>
+              <span class="fas fa-star"></span>
+            </p>
+            <p class=" mb-0">
+              Two multiply fly them, made under a make replenish behold stars, is he of beast place also under unto it.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- END Testinonials -->
+
+
+
+
+<!-- START Footer -->
+
+<footer class="ezy__footer2_9LHL6t6Q bg-black">
+  <div class="container">
+    <div class="row text-center justify-content-around text-sm-start">
+      <div class="col-lg-3">
+        <h2 class="fw-bold text-white"><img src="./images/LOGO.png" alt=""></h2>
+      </div>
+      <div class="col-sm-6 col-lg-2 mt-4 mt-lg-0">
+        <h3 class=" text-white">Quick Links</h3>
+        <ul class="nav flex-column ezy__footer2_9LHL6t6Q-quick-links">
+          <li><a href="./index.html" class=" text-white">Home</a></li>
+          <li><a href="./about.html" class=" text-white">About Us</a></li>
+          <li><a href="./Products.html" class=" text-white">Products</a></li>
+        </ul>
+      </div>
+    
+      <div class="col-sm-6 col-lg-2 mt-4 mt-lg-0">
+        <h3 class=" text-white">Products Info</h3>
+        <ul class="nav flex-column ezy__footer2_9LHL6t6Q-quick-links">
+          <li><a href="./Pharmaceuticals.html" class=" text-white">Pharmaceuticals</a></li>
+          <li><a href="./Diagnostic.html" class=" text-white">Diagnostic</a></li>
+          <li><a href="./Medical Consumables & Surgicals.html" class=" text-white">Medical Consumables & Surgicals</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-3 mt-4 mt-lg-0">
+        <h3 class=" text-white">Contact Us</h3>
+        <ul class="nav flex-column ezy__footer2_9LHL6t6Q-quick-links">
+          <li><a href="#" class=" text-white">Sylhet, Bangladesh</a></li>
+          <li><a href="#" class=" text-white">contact@easyfrontend.com</a></li>
+          <li><a href="#" class=" text-white">+880 1742-0****0</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="row d-flex justify-content-between align-items-center text-center text-lg-start">
+      <div class="col-lg-6">
+        <p class="mb-0 mt-1 text-white">Copyright &copy; Pharma Company, All rights reserved</p>
+      </div>
+      <!-- <div class="col-lg-4 text-center">
+        <ul class="ezy__footer2_9LHL6t6Q-nav nav justify-content-center mt-1">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div> -->
+      <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end text-center text-lg-end mt-1">
+        <ul class="ezy__footer2_9LHL6t6Q-social nav">
+          <li>
+            <a href="" class="text-white border d-flex justify-content-center align-items-center rounded-circle"><i
+                class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="" class="text-white border d-flex justify-content-center align-items-center rounded-circle"><i
+                class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="" class="text-white border d-flex justify-content-center align-items-center rounded-circle"><i
+                class="fab fa-pinterest-p"></i></a>
+          </li>
+          <li>
+            <a href="" class="text-white border d-flex justify-content-center align-items-center rounded-circle"><i
+                class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- END Footer -->
+
+
+    <!-- ------------START Sticky Icon-------------- -->
+
+    <a href="https://wa.me/91123-456-7878" class="back-to-top row align-items-center justify-content-center"
+        id="Aenker"><i class="fa-solid fa-mobile"></i></a>
+    <a href="tel:+91 123-456-7878" class="back-to-top_1 row align-items-center justify-content-center" id="Aenker1"><i
+            class="fa-brands fa-whatsapp"></i></a>
+    <a href="#" class="back-to-top_2 row align-items-center justify-content-center" id="Aenker2"><i
+            class="fa-solid fa-arrow-up"></i></a>
+
+    <!-- ------------END Sticky Icon-------------- -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="./script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+    <script>
+      new PureCounter();
+  </script>
+
+  <!-------------- Aos animation------------------>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- -----------------translate google---------------------- -->
+  <!-- <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+</script> -->
+</body>
+
+</html>
